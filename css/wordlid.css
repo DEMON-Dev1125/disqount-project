@@ -97,7 +97,7 @@
 .attribute-part {
   position: absolute;
   text-align: center;
-  top: 30%;
+  top: 295px;
 }
 .attribute-title {
   color: #ffffff;
@@ -110,10 +110,10 @@
 }
 .price_cards {
   position: absolute;
-  top: 50%;
+  top: 500px;
 }
 .klanten-mat-section {
-  margin-top: 10%;
+  margin-top: 200px;
 }
 
 .price_card {

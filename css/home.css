@@ -665,7 +665,7 @@ body {
 .attribute-part {
   position: absolute;
   text-align: center;
-  top: 30%;
+  top: 300px;
 }
 .attribute-title {
   color: #ffffff;
