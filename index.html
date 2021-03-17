@@ -13,6 +13,11 @@
     <link rel="stylesheet" type="text/css" href="./css/header.css" />
     <link rel="stylesheet" type="text/css" href="./css/footer.css" />
     <link rel="stylesheet" type="text/css" href="./css/item-slider.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
@@ -48,12 +53,12 @@
               <ul class="navbar-right">
                 <li>
                   <a href="" data-toggle="modal" data-target="#loginModal"
-                    ><span class="glyphicon glyphicon-user"></span>LOGIN</a
+                    ><img src="./svg/user.svg" /> &nbsp;LOGIN</a
                   >
                 </li>
                 <li>
                   <a href="" data-toggle="modal" data-target="#contactModal"
-                    ><span class="glyphicon glyphicon-log-in"></span>CONTACT</a
+                    ><img src="./svg/mail.svg" /> &nbsp;CONTACT</a
                   >
                 </li>
               </ul>
@@ -168,7 +173,8 @@
           <div class="slider-card">
             <div class="title">Luxe Lounge set</div>
             <div class="price">
-              <img src="./images/home/icons/icon-eur.png" />1036,95
+              &euro;1036,95
+              <div class="red_line"></div>
             </div>
             <div class="discount">Nu voor u voor:</div>
             <div class="discount-price">998,90</div>
@@ -199,9 +205,8 @@
       </div>
       <div class="slider-card-mobile">
         <div class="title">Luxe Lounge set</div>
-        <div class="price">
-          <img src="./images/home/icons/icon-eur.png" />1036,95
-        </div>
+        <div class="price">&euro;1036,95
+          <div class="red_line"></div>
         <div class="discount">Nu voor u voor:</div>
         <div class="discount-price">998,90</div>
         <div class="number-title">U heeft nog maar:</div>
@@ -238,11 +243,11 @@
           </div>
           <div class="col-md-4 product-cate-item">
             <img src="./images/home/icons/white-arrow.png" />
-            <p>Luxe voor een spotprijs</p>
+            <p>U bepaald wat u betaalt</p>
           </div>
           <div class="col-md-4 product-cate-item">
             <img src="./images/home/icons/white-arrow.png" />
-            <p>Luxe voor een spotprijs</p>
+            <p>Niet goed, geld terug</p>
           </div>
         </div>
         <hr />
@@ -250,61 +255,47 @@
           <div class="hoe"></div>
           <div class="title">Deze producten werden zojuist gemijnd</div>
         </div>
-        <div class="row">
-          <div class="col-md-3 product-item">
-            <p class="product-item-title">Gazelle Opoefiets</p>
-            <p class="product-item-price">
-              T.w.v.<img src="./images/home/icons/icon-eur.png" /><span
-                >2032,00</span
-              >
-            </p>
-            <img src="./images/home/products/bicycle.png" />
-            <p class="product-item-title">GECALIMD</p>
-            <p class="product-item-price">Voor: 354,00</p>
-            <div class="product-item-bar">
-              <img src="./images/home/geclaimd-bar.png" />
+        <div class="all_product">
+          <div class="row container">
+            <div class="col-md-3 product-item">
+              <p class="product-item-title">Gazelle Opoefiets</p>
+              <p class="product-item-price">T.w.v.<span>&euro;2032,00</span></p>
+              <img src="./images/home/products/bicycle.png" />
+              <p class="product-item-title">GECALIMD</p>
+              <p class="product-item-price">Voor: 354,00</p>
+              <div class="product-item-bar">
+                <img src="./images/home/geclaimd-bar.png" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 product-item">
-            <p class="product-item-title">Gazelle Opoefiets</p>
-            <p class="product-item-price">
-              T.w.v.<img src="./images/home/icons/icon-eur.png" /><span
-                >2032,00</span
-              >
-            </p>
-            <img src="./images/home/products/bicycle.png" />
-            <p class="product-item-title">GECALIMD</p>
-            <p class="product-item-price">Voor: 354,00</p>
-            <div class="product-item-bar">
-              <img src="./images/home/geclaimd-bar.png" />
+            <div class="col-md-3 product-item">
+              <p class="product-item-title">Gazelle Opoefiets</p>
+              <p class="product-item-price">T.w.v.<span>&euro;2032,00</span></p>
+              <img src="./images/home/products/camera.png" />
+              <p class="product-item-title">GECALIMD</p>
+              <p class="product-item-price">Voor: 354,00</p>
+              <div class="product-item-bar">
+                <img src="./images/home/geclaimd-bar.png" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 product-item">
-            <p class="product-item-title">Gazelle Opoefiets</p>
-            <p class="product-item-price">
-              T.w.v.<img src="./images/home/icons/icon-eur.png" /><span
-                >2032,00</span
-              >
-            </p>
-            <img src="./images/home/products/bicycle.png" />
-            <p class="product-item-title">GECALIMD</p>
-            <p class="product-item-price">Voor: 354,00</p>
-            <div class="product-item-bar">
-              <img src="./images/home/geclaimd-bar.png" />
+            <div class="col-md-3 product-item">
+              <p class="product-item-title">Gazelle Opoefiets</p>
+              <p class="product-item-price">T.w.v.<span>&euro;2032,00</span></p>
+              <img src="./images/home/products/bicycle.png" />
+              <p class="product-item-title">GECALIMD</p>
+              <p class="product-item-price">Voor: 354,00</p>
+              <div class="product-item-bar">
+                <img src="./images/home/geclaimd-bar.png" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 product-item">
-            <p class="product-item-title">Gazelle Opoefiets</p>
-            <p class="product-item-price">
-              T.w.v.<img src="./images/home/icons/icon-eur.png" /><span
-                >2032,00</span
-              >
-            </p>
-            <img src="./images/home/products/bicycle.png" />
-            <p class="product-item-title">GECALIMD</p>
-            <p class="product-item-price">Voor: 354,00</p>
-            <div class="product-item-bar">
-              <img src="./images/home/geclaimd-bar.png" />
+            <div class="col-md-3 product-item">
+              <p class="product-item-title">Gazelle Opoefiets</p>
+              <p class="product-item-price">T.w.v.<span>&euro;2032,00</span></p>
+              <img src="./images/home/products/bicycle.png" />
+              <p class="product-item-title">GECALIMD</p>
+              <p class="product-item-price">Voor: 354,00</p>
+              <div class="product-item-bar">
+                <img src="./images/home/geclaimd-bar.png" />
+              </div>
             </div>
           </div>
         </div>
@@ -331,9 +322,8 @@
               </div>
               <div class="sale-mark">
                 <img src="./images/home/price-mark.png" />
-                <div>
-                  <img src="./images/home/icons/icon-eur-white.png" />
-                  <p>1036,95</p>
+                <div class="price_style">
+                  <div class="line"></div>&euro;1036,95
                 </div>
               </div>
             </div>
@@ -355,16 +345,15 @@
               </div>
               <div class="sale-mark">
                 <img src="./images/home/price-mark.png" />
-                <div>
-                  <img src="./images/home/icons/icon-eur-white.png" />
-                  <p>1036,95</p>
+                <div class="price_style">
+                  <div class="line"></div>&euro;1036,95
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="product-sale-item">
-              <img src="./images/home/products/bed.png" />
+              <img src="./images/home/products/none.png" />
               <div class="small-card">
                 <div class="small-title">DE koffiemachine</div>
                 <div class="small-check">
@@ -383,9 +372,8 @@
               </div>
               <div class="sale-mark">
                 <img src="./images/home/price-mark.png" />
-                <div>
-                  <img src="./images/home/icons/icon-eur-white.png" />
-                  <p>1036,95</p>
+                <div class="price_style">
+                  <div class="line"></div>&euro;1036,95
                 </div>
               </div>
             </div>
@@ -409,16 +397,15 @@
               </div>
               <div class="sale-mark">
                 <img src="./images/home/price-mark.png" />
-                <div>
-                  <img src="./images/home/icons/icon-eur-white.png" />
-                  <p>1036,95</p>
+                <div class="price_style">
+                  <div class="line"></div>&euro;1036,95
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="product-sale-item">
-              <img src="./images/home/products/bed.png" />
+              <img src="./images/home/products/none.png" />
               <div class="small-card">
                 <div class="small-title">DE koffiemachine</div>
                 <div class="small-check">
@@ -437,9 +424,8 @@
               </div>
               <div class="sale-mark">
                 <img src="./images/home/price-mark.png" />
-                <div>
-                  <img src="./images/home/icons/icon-eur-white.png" />
-                  <p>1036,95</p>
+                <div class="price_style">
+                  <div class="line"></div>&euro;1036,95
                 </div>
               </div>
             </div>
@@ -461,9 +447,8 @@
               </div>
               <div class="sale-mark">
                 <img src="./images/home/price-mark.png" />
-                <div>
-                  <img src="./images/home/icons/icon-eur-white.png" />
-                  <p>1036,95</p>
+                <div class="price_style">
+                  <div class="line"></div>&euro;1036,95
                 </div>
               </div>
             </div>
@@ -539,109 +524,132 @@
             <div class="carousel slide multi-item-carousel" id="theCarousel">
               <div class="carousel-inner">
                 <div class="item active">
-                  <div class="col-xs-6">
-                    <div class="image-section">
-                      <img src="./images/kopia/review-man.png" />
-                      <div class="image-section-detail">
-                        <p>Rob - 55</p>
-                        <h4>
-                          <b
-                            >Ruim 100 euro korting via 24disqount.com,
-                            fantastisch!</b
-                          >
-                        </h4>
-                        <p>GEOWNNEN PRODUCT</p>
-                        <p><b>Dyson Boor</b></p>
+                  <div class="col-sm-6">
+                    <div class="feedback_card container-fluid">
+                      <div class="row">
+                        <div class="col-sm-4 avatar">
+                          <img src="./images/home/review-woman.png" alt="" />
+                        </div>
+                        <div class="col-sm-8">
+                          <div class="feedback_content text-center">
+                            <div class="feed_header">Anna - 34</div>
+                            <div class="feed_deatil">
+                              Wat een service, binnen 2 dagen had ik hem!
+                            </div>
+                            <div class="feed_footer">Gewonnen product:</div>
+                            <div class="feed_name">Tesso Blender</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="item">
-                  <div class="col-xs-6">
-                    <div class="image-section">
-                      <img src="./images/kopia/review-man.png" />
-                      <div class="image-section-detail">
-                        <p>Rob - 55</p>
-                        <h4>
-                          <b
-                            >Ruim 100 euro korting via 24disqount.com,
-                            fantastisch!</b
-                          >
-                        </h4>
-                        <p>GEOWNNEN PRODUCT</p>
-                        <p><b>Dyson Boor</b></p>
+                  <div class="col-sm-6">
+                    <div class="feedback_card container-fluid">
+                      <div class="row">
+                        <div class="col-sm-4 avatar">
+                          <img src="./images/home/review-man.png" alt="" />
+                        </div>
+                        <div class="col-sm-8">
+                          <div class="feedback_content text-center">
+                            <div class="feed_header">Rob - 55</div>
+                            <div class="feed_deatil">
+                              Ruim 100 euro korting via 24Disqount.com,
+                              fantastisch!
+                            </div>
+                            <div class="feed_footer">Gewonnen product:</div>
+                            <div class="feed_name">Dyson Boor</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="item">
-                  <div class="col-xs-6">
-                    <div class="image-section">
-                      <img src="./images/kopia/review-man.png" />
-                      <div class="image-section-detail">
-                        <p>Rob - 55</p>
-                        <h4>
-                          <b
-                            >Ruim 100 euro korting via 24disqount.com,
-                            fantastisch!</b
-                          >
-                        </h4>
-                        <p>GEOWNNEN PRODUCT</p>
-                        <p><b>Dyson Boor</b></p>
+                  <div class="col-sm-6">
+                    <div class="feedback_card container-fluid">
+                      <div class="row">
+                        <div class="col-sm-4 avatar">
+                          <img src="./images/home/review-man.png" alt="" />
+                        </div>
+                        <div class="col-sm-8">
+                          <div class="feedback_content text-center">
+                            <div class="feed_header">Rob - 55</div>
+                            <div class="feed_deatil">
+                              Ruim 100 euro korting via 24Disqount.com,
+                              fantastisch!
+                            </div>
+                            <div class="feed_footer">Gewonnen product:</div>
+                            <div class="feed_name">Dyson Boor</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="item">
-                  <div class="col-xs-6">
-                    <div class="image-section">
-                      <img src="./images/kopia/review-man.png" />
-                      <div class="image-section-detail">
-                        <p>Rob - 55</p>
-                        <h4>
-                          <b
-                            >Ruim 100 euro korting via 24disqount.com,
-                            fantastisch!</b
-                          >
-                        </h4>
-                        <p>GEOWNNEN PRODUCT</p>
-                        <p><b>Dyson Boor</b></p>
+                  <div class="col-sm-6">
+                    <div class="feedback_card container-fluid">
+                      <div class="row">
+                        <div class="col-sm-4 avatar">
+                          <img src="./images/home/review-man.png" alt="" />
+                        </div>
+                        <div class="col-sm-8">
+                          <div class="feedback_content text-center">
+                            <div class="feed_header">Rob - 55</div>
+                            <div class="feed_deatil">
+                              Ruim 100 euro korting via 24Disqount.com,
+                              fantastisch!
+                            </div>
+                            <div class="feed_footer">Gewonnen product:</div>
+                            <div class="feed_name">Dyson Boor</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="item">
-                  <div class="col-xs-6">
-                    <div class="image-section">
-                      <img src="./images/kopia/review-man.png" />
-                      <div class="image-section-detail">
-                        <p>Rob - 55</p>
-                        <h4>
-                          <b
-                            >Ruim 100 euro korting via 24disqount.com,
-                            fantastisch!</b
-                          >
-                        </h4>
-                        <p>GEOWNNEN PRODUCT</p>
-                        <p><b>Dyson Boor</b></p>
+                  <div class="col-sm-6">
+                    <div class="feedback_card container-fluid">
+                      <div class="row">
+                        <div class="col-sm-4 avatar">
+                          <img src="./images/home/review-man.png" alt="" />
+                        </div>
+                        <div class="col-sm-8">
+                          <div class="feedback_content text-center">
+                            <div class="feed_header">Rob - 55</div>
+                            <div class="feed_deatil">
+                              Ruim 100 euro korting via 24Disqount.com,
+                              fantastisch!
+                            </div>
+                            <div class="feed_footer">Gewonnen product:</div>
+                            <div class="feed_name">Dyson Boor</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="item">
-                  <div class="col-xs-6">
-                    <div class="image-section">
-                      <img src="./images/kopia/review-man.png" />
-                      <div class="image-section-detail">
-                        <p>Rob - 55</p>
-                        <h4>
-                          <b
-                            >Ruim 100 euro korting via 24disqount.com,
-                            fantastisch!</b
-                          >
-                        </h4>
-                        <p>GEOWNNEN PRODUCT</p>
-                        <p><b>Dyson Boor</b></p>
+                  <div class="col-sm-6">
+                    <div class="feedback_card container-fluid">
+                      <div class="row">
+                        <div class="col-sm-4 avatar">
+                          <img src="./images/home/review-man.png" alt="" />
+                        </div>
+                        <div class="col-sm-8">
+                          <div class="feedback_content text-center">
+                            <div class="feed_header">Rob - 55</div>
+                            <div class="feed_deatil">
+                              Ruim 100 euro korting via 24Disqount.com,
+                              fantastisch!
+                            </div>
+                            <div class="feed_footer">Gewonnen product:</div>
+                            <div class="feed_name">Dyson Boor</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>

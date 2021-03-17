@@ -33,6 +33,10 @@
   outline-style: none;
   border: none;
 }
+.btn_cratis:focus {
+  outline-style: none;
+  border: none;
+}
 .btn_price {
   padding: 15px 60px;
   background-color: #f36431;
@@ -45,10 +49,6 @@
   outline-style: none;
   border: none;
   margin: 20px 0;
-}
-.btn_cratis:focus {
-  outline-style: none;
-  border: none;
 }
 
 .product-cate-section {
@@ -90,9 +90,6 @@
 }
 .all_cards {
   margin-top: 25px;
-}
-.cratis-content {
-  text-align: center;
 }
 .btn_cratis {
   margin: 50px 0;

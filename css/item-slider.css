@@ -1,9 +1,9 @@
 .multi-item-carousel .carousel-inner > .item {
-  transition: 500ms ease-in-out left;
+  /* transition: 500ms ease-in-out left; */
 }
 .multi-item-carousel .carousel-inner > .item img {
   width: 100%;
-} 
+}
 .multi-item-carousel .carousel-inner .active.left {
   left: -13%;
 }
@@ -21,9 +21,9 @@
     transition: 500ms ease-in-out left;
     transition: 500ms ease-in-out all;
     -webkit-backface-visibility: visible;
-            backface-visibility: visible;
-    -webkit-transform: none!important;
-            transform: none!important;
+    backface-visibility: visible;
+    -webkit-transform: none !important;
+    transform: none !important;
   }
 }
 .multi-item-carousel .carouse-control.left,
